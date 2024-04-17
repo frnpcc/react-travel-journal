@@ -1,6 +1,43 @@
 #root {
-  max-width: 1280px;
+  width: 550px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+}
+
+.card {
+  margin: 0 40px;
+  display: flex;
+  align-items: center;
+  height: 168px;
+  font-size: 10.24px;
+  color: #2B283A;
+  padding: 18px 0;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.card--top {
+  display: flex;
+  align-items: center;
+
+}
+
+.card--img {
+  height: 100%;
+  margin-right: 19px;
+}
+
+.card--locat {
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin-left: 4px;
+  margin-right: 12px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card-desc {
+  margin-top: 9px;
+  line-height: 1.5;
 }
